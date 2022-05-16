@@ -74,7 +74,14 @@
       }
     }
     &__why-choose {
+      padding-bottom: 0;
       .content {
+        &.mb3{
+          margin-bottom: 64px;
+          @include respond-phone{
+            margin-bottom: 32px;
+          }
+        }
         &__cards {
           grid-template-columns: repeat(3, 1fr);
           @include respond-tabPort {
@@ -236,6 +243,7 @@
       }
     }
     &__dang-ky {
+      padding-bottom: 0;
       @include respond-phone {
         padding-top: 0;
       }

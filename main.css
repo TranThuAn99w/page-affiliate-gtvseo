@@ -423,6 +423,20 @@
   }
 }
 
+#affiliate-body .ss__why-choose {
+  padding-bottom: 0;
+}
+
+#affiliate-body .ss__why-choose .content.mb3 {
+  margin-bottom: 64px;
+}
+
+@media (max-width: 600px) {
+  #affiliate-body .ss__why-choose .content.mb3 {
+    margin-bottom: 32px;
+  }
+}
+
 #affiliate-body .ss__why-choose .content__cards {
   -ms-grid-columns: (1fr)[3];
       grid-template-columns: repeat(3, 1fr);
@@ -642,6 +656,10 @@
 
 #affiliate-body .ss__dieu-khoan .content__text p, #affiliate-body .ss__dieu-khoan .content__text li {
   font-size: 16px;
+}
+
+#affiliate-body .ss__dang-ky {
+  padding-bottom: 0;
 }
 
 @media (max-width: 600px) {
